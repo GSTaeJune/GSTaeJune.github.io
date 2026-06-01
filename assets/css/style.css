@@ -261,6 +261,7 @@ img { max-width: 100%; display: block; }
 }
 .search svg { flex: none; color: var(--faint); }
 .tagbar { display: flex; flex-wrap: wrap; gap: 8px; }
+.list-count { margin: 14px 0 16px; font-size: 0.9rem; }
 .tag-btn {
   font-size: 0.82rem;
   color: var(--muted);
