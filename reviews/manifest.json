@@ -1,44 +1,57 @@
 [
   {
-    "id": "2026-06-01-test-review",
-    "title": "✅ Test Post — This is how it looks",
-    "date": "2026-06-01",
-    "authors": "Your Name",
-    "venue": "",
+    "id": "2026-01-29-amdahl-single-processor",
+    "title": "Validity of the Single Processor Approach to Achieving Large Scale Computing Capabilities",
+    "date": "2026-01-29",
+    "authors": "Gene M. Amdahl",
+    "venue": "AFIPS 1967",
     "link": "",
-    "summary": "When you add a .md file, this is how it shows up as a web page. (A test post — feel free to delete it later.)",
+    "summary": "Amdahl's Law — why an infinite number of processors does not make a task arbitrarily fast; speedup is bounded by the sequential portion.",
     "tags": [
-      "Test",
-      "Example"
+      "Computer Architecture",
+      "Parallelism"
     ]
   },
   {
-    "id": "2017-06-12-attention-is-all-you-need",
-    "title": "Attention Is All You Need — Review",
-    "date": "2017-06-12",
-    "authors": "Vaswani et al.",
-    "venue": "NeurIPS 2017",
-    "link": "https://arxiv.org/abs/1706.03762",
-    "summary": "Proposes the Transformer, which models sequences using attention alone (no RNN/CNN). This file is an example that shows the review format.",
+    "id": "2026-01-28-eyeriss",
+    "title": "Eyeriss: An Energy-Efficient Reconfigurable Accelerator for Deep Convolutional Neural Networks",
+    "date": "2026-01-28",
+    "authors": "Chen, Yu-Hsin, et al.",
+    "venue": "IEEE JSSC 2016",
+    "link": "",
+    "summary": "A pioneering CNN accelerator that minimizes data movement via a three-level memory hierarchy and the Row-Stationary dataflow.",
     "tags": [
-      "Transformer",
-      "NLP",
-      "Attention",
-      "Deep Learning"
+      "AI Accelerator",
+      "CNN",
+      "Dataflow",
+      "Hardware"
     ]
   },
   {
-    "id": "2015-12-10-deep-residual-learning",
-    "title": "Deep Residual Learning (ResNet) — Review",
-    "date": "2015-12-10",
-    "authors": "He et al.",
-    "venue": "CVPR 2016",
-    "link": "https://arxiv.org/abs/1512.03385",
-    "summary": "Residual (skip) connections that let very deep networks train stably. (Example review)",
+    "id": "2026-01-27-why-systolic-architecture",
+    "title": "Why Systolic Architecture?",
+    "date": "2026-01-27",
+    "authors": "H. T. Kung",
+    "venue": "Carnegie Mellon, 1982",
+    "link": "",
+    "summary": "Kung's foundational case for systolic architecture — simple, regular cells used repetitively, balancing computation with I/O.",
     "tags": [
-      "ResNet",
-      "Computer Vision",
-      "Deep Learning"
+      "Computer Architecture",
+      "Systolic Array",
+      "Hardware"
+    ]
+  },
+  {
+    "id": "2026-01-06-diannao",
+    "title": "DianNao: A Small-Footprint High-Throughput Accelerator for Ubiquitous Machine-Learning",
+    "date": "2026-01-06",
+    "authors": "Chen, Tianshi, et al.",
+    "venue": "ASPLOS 2014",
+    "link": "",
+    "summary": "An early, widely-cited ML hardware accelerator — small-footprint and high-throughput. (Review in progress.)",
+    "tags": [
+      "AI Accelerator",
+      "Hardware"
     ]
   }
 ]
