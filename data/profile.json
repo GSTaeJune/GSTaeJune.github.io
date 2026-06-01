@@ -1,0 +1,28 @@
+{
+  "_안내": "이 파일만 고치면 사이트 전체(이름/소개/연락처/링크)가 바뀝니다. 따옴표 안의 내용만 바꾸세요.",
+
+  "name": "Your Name",
+  "role": "M.S. Student / Research Assistant",
+  "affiliation": "Your Lab · Dept. of XXX · Your University",
+  "field": "Your research area (e.g., Machine Learning, Computer Vision)",
+  "location": "Seoul, Republic of Korea",
+  "email": "ptj7002@gmail.com",
+  "avatar": "assets/img/avatar.svg",
+
+  "tagline": "A place where I document my research and review the papers I read.",
+  "about": "Hi, I'm a master's student researching XXX. On this site I introduce my research and post reviews of papers I've read, written in my own words. (Edit this text in data/profile.json under 'about'.)",
+
+  "research": {
+    "summary": "I'm currently interested in the problem of XXX, which I approach using YYY. (Edit this in data/profile.json under research.summary.)",
+    "interests": ["Research interest 1", "Research interest 2", "Research interest 3"]
+  },
+
+  "_링크안내": "보이고 싶은 링크는 url을 채우고, 숨기고 싶은 링크는 url을 빈 문자열(\"\")로 두세요.",
+  "links": [
+    { "label": "Email", "icon": "mail", "url": "mailto:ptj7002@gmail.com" },
+    { "label": "Google Scholar", "icon": "scholar", "url": "" },
+    { "label": "GitHub", "icon": "github", "url": "" },
+    { "label": "LinkedIn", "icon": "linkedin", "url": "" },
+    { "label": "Instagram", "icon": "instagram", "url": "" }
+  ]
+}

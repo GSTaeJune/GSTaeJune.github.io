@@ -1,0 +1,44 @@
+# GitHub에 올릴(push) 때마다 자동으로 실행됩니다.
+#  1) 리뷰 목록(manifest.json)을 다시 만들고
+#  2) 사이트를 GitHub Pages로 배포합니다.
+# → 새 논문 리뷰 .md만 추가해서 올리면 사이트에 자동 반영됩니다.
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch: # 깃허브에서 수동 실행도 가능
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: 리뷰 목록 자동 생성
+        run: node scripts/build.mjs
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: .
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

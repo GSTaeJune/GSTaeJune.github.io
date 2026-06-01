@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{name} · Research & Paper Reviews</title>
+  <meta name="description" content="A master's researcher's research overview and paper reviews." />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body data-page="home">
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span class="brand-dot"></span><span data-profile="name">My Site</span></a>
+      <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav class="nav-links">
+        <a href="index.html" data-nav="home">Home</a>
+        <a href="reviews.html" data-nav="reviews">Paper Reviews</a>
+        <a href="gallery.html" data-nav="gallery">Gallery</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <section class="container hero">
+      <div>
+        <p class="hero-eyebrow" data-profile="role">M.S. Student</p>
+        <h1>Hi, I'm <span class="grad" data-profile="name">Your Name</span>.</h1>
+        <p class="lead" data-profile="tagline">A place where I document my research and review the papers I read.</p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="reviews.html">Browse paper reviews</a>
+          <a class="btn" href="index.html#contact">Get in touch</a>
+        </div>
+      </div>
+      <img class="avatar" data-avatar src="assets/img/avatar.svg" alt="Profile picture" />
+    </section>
+
+    <!-- About + Research -->
+    <section class="container section" id="about">
+      <div class="section-head"><h2>About</h2></div>
+      <div class="about-grid">
+        <div class="panel">
+          <h3>About me</h3>
+          <p class="muted" data-profile="about">Your bio will appear here.</p>
+          <p class="muted" style="margin-bottom:0">
+            <strong>Affiliation</strong> · <span data-profile="affiliation"></span><br />
+            <strong>Field</strong> · <span data-profile="field"></span>
+          </p>
+        </div>
+        <div class="panel">
+          <h3>Research</h3>
+          <p class="muted" data-profile="research.summary">A summary of your research will appear here.</p>
+          <div class="interests" id="interests"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recent reviews -->
+    <section class="container section">
+      <div class="section-head">
+        <a class="more" href="reviews.html">View all →</a>
+        <h2>Recent paper reviews</h2>
+        <p>Papers I've recently read and summarized.</p>
+      </div>
+      <div class="grid" id="recent-reviews">
+        <p class="notice muted">Loading…</p>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="container section" id="contact">
+      <div class="section-head"><h2>Contact</h2><p>Feel free to reach out.</p></div>
+      <div class="panel">
+        <div class="link-row" id="contact-links"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> <span data-profile="name"></span></p>
+      <p class="muted">To add a new paper review, just drop a .md file into the <code>reviews/</code> folder.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>

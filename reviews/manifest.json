@@ -1,0 +1,44 @@
+[
+  {
+    "id": "2026-06-01-test-review",
+    "title": "✅ Test Post — This is how it looks",
+    "date": "2026-06-01",
+    "authors": "Your Name",
+    "venue": "",
+    "link": "",
+    "summary": "When you add a .md file, this is how it shows up as a web page. (A test post — feel free to delete it later.)",
+    "tags": [
+      "Test",
+      "Example"
+    ]
+  },
+  {
+    "id": "2017-06-12-attention-is-all-you-need",
+    "title": "Attention Is All You Need — Review",
+    "date": "2017-06-12",
+    "authors": "Vaswani et al.",
+    "venue": "NeurIPS 2017",
+    "link": "https://arxiv.org/abs/1706.03762",
+    "summary": "Proposes the Transformer, which models sequences using attention alone (no RNN/CNN). This file is an example that shows the review format.",
+    "tags": [
+      "Transformer",
+      "NLP",
+      "Attention",
+      "Deep Learning"
+    ]
+  },
+  {
+    "id": "2015-12-10-deep-residual-learning",
+    "title": "Deep Residual Learning (ResNet) — Review",
+    "date": "2015-12-10",
+    "authors": "He et al.",
+    "venue": "CVPR 2016",
+    "link": "https://arxiv.org/abs/1512.03385",
+    "summary": "Residual (skip) connections that let very deep networks train stably. (Example review)",
+    "tags": [
+      "ResNet",
+      "Computer Vision",
+      "Deep Learning"
+    ]
+  }
+]

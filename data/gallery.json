@@ -1,0 +1,23 @@
+{
+  "_안내": "작업물/사진을 보여주는 갤러리입니다. 이미지는 assets/img 폴더에 넣고 경로를 적으세요. link는 비워두면 클릭 안 됨.",
+  "items": [
+    {
+      "title": "Poster Presentation",
+      "caption": "Poster session at a conference (sample item)",
+      "image": "assets/img/sample-1.svg",
+      "link": ""
+    },
+    {
+      "title": "Experimental Results",
+      "caption": "Performance comparison of the proposed method (sample item)",
+      "image": "assets/img/sample-2.svg",
+      "link": ""
+    },
+    {
+      "title": "Project Diagram",
+      "caption": "System architecture (sample item)",
+      "image": "assets/img/sample-3.svg",
+      "link": ""
+    }
+  ]
+}
