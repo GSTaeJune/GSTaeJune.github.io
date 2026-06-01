@@ -1,27 +1,27 @@
 {
   "_안내": "이 파일만 고치면 사이트 전체(이름/소개/연락처/링크)가 바뀝니다. 따옴표 안의 내용만 바꾸세요.",
 
-  "name": "Your Name",
-  "role": "M.S. Student / Research Assistant",
-  "affiliation": "Your Lab · Dept. of XXX · Your University",
-  "field": "Your research area (e.g., Machine Learning, Computer Vision)",
+  "name": "TaeJun Park",
+  "role": "M.S. Student",
+  "affiliation": "Hongik University · IDEA Lab",
+  "field": "AI Accelerator, Computer Architecture",
   "location": "Seoul, Republic of Korea",
   "email": "ptj7002@gmail.com",
   "avatar": "assets/img/avatar.svg",
 
-  "tagline": "A place where I document my research and review the papers I read.",
-  "about": "Hi, I'm a master's student researching XXX. On this site I introduce my research and post reviews of papers I've read, written in my own words. (Edit this text in data/profile.json under 'about'.)",
+  "tagline": "Documenting my research and reviewing the papers I read on AI accelerators and computer architecture.",
+  "about": "Hi, I'm TaeJun Park, a master's student in the IDEA Lab at Hongik University. I'm interested in AI accelerators and computer architecture. On this site I introduce my research and post reviews of papers I've read, written in my own words.",
 
   "research": {
-    "summary": "I'm currently interested in the problem of XXX, which I approach using YYY. (Edit this in data/profile.json under research.summary.)",
-    "interests": ["Research interest 1", "Research interest 2", "Research interest 3"]
+    "summary": "I work on AI accelerators and computer architecture — designing and analyzing efficient hardware for machine-learning workloads.",
+    "interests": ["AI Accelerators", "Computer Architecture", "Systolic Arrays"]
   },
 
   "_링크안내": "보이고 싶은 링크는 url을 채우고, 숨기고 싶은 링크는 url을 빈 문자열(\"\")로 두세요.",
   "links": [
     { "label": "Email", "icon": "mail", "url": "mailto:ptj7002@gmail.com" },
+    { "label": "GitHub", "icon": "github", "url": "https://github.com/GSTaeJune" },
     { "label": "Google Scholar", "icon": "scholar", "url": "" },
-    { "label": "GitHub", "icon": "github", "url": "" },
     { "label": "LinkedIn", "icon": "linkedin", "url": "" },
     { "label": "Instagram", "icon": "instagram", "url": "" }
   ]
